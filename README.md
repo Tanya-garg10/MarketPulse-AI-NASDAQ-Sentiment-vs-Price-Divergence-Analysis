@@ -6,8 +6,6 @@ A Streamlit-powered dashboard that analyzes NASDAQ 100 stock data (2010–presen
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B?logo=streamlit&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
----
-
 ## 🚀 Features
 
 - **No Upload Required** — Dataset is pre-loaded from the repo, ready to analyze instantly
@@ -21,8 +19,6 @@ A Streamlit-powered dashboard that analyzes NASDAQ 100 stock data (2010–presen
 - **Auto-Generated Insights** — Smart text insights (most mispriced, most volatile, highest volume, etc.)
 - **Raw Data Explorer** — Expandable table with CSV download option
 
----
-
 ## 📁 Project Structure
 
 ```
@@ -32,8 +28,6 @@ A Streamlit-powered dashboard that analyzes NASDAQ 100 stock data (2010–presen
 └── README.md
 ```
 
----
-
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
@@ -41,8 +35,6 @@ A Streamlit-powered dashboard that analyzes NASDAQ 100 stock data (2010–presen
 | **Streamlit** | Web dashboard & UI |
 | **Pandas** | Data cleaning & analysis |
 | **NumPy** | Numerical computations |
-
----
 
 ## ⚡ Quick Start
 
@@ -64,18 +56,6 @@ streamlit run app.py
 
 The app will open at `http://localhost:8501`
 
----
-
-## 🌐 Deploy on Streamlit Cloud
-
-1. Push this repo to GitHub (already done ✅)
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub account
-4. Select this repo → Main file: `app.py`
-5. Click **Deploy**
-
----
-
 ## 📊 Dataset
 
 - **Source:** NASDAQ 100 historical stock data
@@ -83,8 +63,6 @@ The app will open at `http://localhost:8501`
 - **Stocks:** 102 companies
 - **Records:** ~271,000+ rows
 - **Columns:** Date, Open, High, Low, Close, Adj Close, Volume, Name
-
----
 
 ## 🧠 How It Works
 
@@ -94,13 +72,9 @@ The app will open at `http://localhost:8501`
 4. **Divergence Detection** — Compares normalized price movement against sentiment to flag mispriced stocks
 5. **Auto Insights** — Generates text-based insights from aggregated metrics
 
----
-
 ## 👩‍💻 Author
 
 **Tanya Garg**
-
----
 
 ## 📄 License
 
